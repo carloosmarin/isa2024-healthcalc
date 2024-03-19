@@ -1,6 +1,8 @@
 # isa2024-healtcalc
 Health calculator
 
+# Práctica 1
+
 #Test para el metodo idealWeight():
 
 1.Altura minima
@@ -40,3 +42,8 @@ Test para el caso de de obtener un valor distinro a "m" o "w". Se lanzara una ex
 4.Input de género
 Test para comprobar el uso de mayúsculas y minúsculas para el input del género.
 
+# Práctica 2
+En esta práctica realizamos un diagrama de Casos de Uso con las distintas funcionalidades de nuestra calculadora, además de añadir los casos de uso del cálculo del indice de masa corporal y de la presión arterial media.
+
+
+![Diagrama de Casos de Uso de nuestra Calculadora]https://github.com/carloosmarin/isa2024-healthcalc/blob/main/doc1/Diagrama%20Casos%20de%20uso%20extendido.png?raw=true
