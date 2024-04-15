@@ -88,3 +88,34 @@ Si el usuario no ingresa uno o más de los datos requeridos (peso, estatura, eda
 Extensiones:
 
 Después de calcular el peso ideal, la aplicación puede ofrecer al usuario la opción de establecer metas de peso y proporcionar recomendaciones para lograr esas metas, como consejos de dieta y ejercicio. Esto extendería el caso de uso principal para incluir funcionalidades adicionales de seguimiento de objetivos y asesoramiento de salud.
+# Práctica 3
+
+### Historia de Usuario 1: Cálculo del Peso Ideal de una Persona
+
+**Título:** Calcular Peso Ideal
+
+**Descripción:**
+Como usuario de la calculadora, quiero poder calcular el peso ideal de una persona basado en su altura y género, para tener una referencia de su peso objetivo.
+
+**Criterios de Aceptación:**
+1. Dado que soy un usuario de la calculadora, cuando ingreso la altura y el género de la persona, la calculadora me muestra su peso ideal.
+2. Si ingreso una altura válida en metros y un género válido (masculino o femenino), la calculadora calcula y muestra el peso ideal correspondiente.
+3. La calculadora debe manejar diferentes unidades de altura, como metros, centímetros o pies, y realizar la conversión internamente si es necesario.
+4. En caso de ingresar valores no válidos (por ejemplo, altura negativa o caracteres no numéricos), la calculadora muestra un mensaje de error indicando que los datos ingresados no son válidos y solicita al usuario que ingrese valores correctos.
+
+### Historia de Usuario 2: Cálculo de la Tasa Metabólica Basal de una Persona
+
+**Título:** Calcular Tasa Metabólica Basal (TMB)
+
+**Descripción:**
+Como usuario de la calculadora, deseo poder calcular la tasa metabólica basal (TMB) de una persona basado en su edad, peso, altura y nivel de actividad física, para tener una estimación de su requerimiento calórico diario.
+
+**Criterios de Aceptación:**
+1. Cuando ingreso la edad, peso, altura y nivel de actividad física de la persona, la calculadora me muestra su tasa metabólica basal (TMB).
+2. La calculadora debe permitir ingresar la edad en años, el peso en kilogramos, la altura en metros y el nivel de actividad física (sedentario, ligero, moderado, activo o muy activo) como opciones predefinidas.
+3. Debe calcular la TMB según la fórmula de Harris-Benedict o Mifflin-St Jeor, teniendo en cuenta el género de la persona si es relevante para la fórmula seleccionada.
+4. Si el usuario no selecciona un nivel de actividad física, la calculadora debe asumir un nivel predeterminado.
+5. La calculadora debe manejar diferentes unidades de medida para la altura y el peso, realizando conversiones internas si es necesario.
+6. Si se ingresan valores no válidos (por ejemplo, edad negativa, peso no numérico, nivel de actividad no válido), la calculadora debe mostrar un mensaje de error indicando que los datos ingresados no son válidos y solicitar al usuario que ingrese valores correctos.
+
+Estos son ejemplos de historias de usuario y sus criterios de aceptación para las funcionalidades mencionadas. Puedes ajustar los criterios de aceptación según las necesidades específicas de tu proyecto.
