@@ -135,6 +135,44 @@ Diseño final:
 
 ![Diseño final]([[URL_de_la_imagen](https://github.com/carloosmarin/isa2024-healthcalc/blob/practica4/Images/Prototipo%20GUI.png?raw=true)](https://github.com/carloosmarin/isa2024-healthcalc/blob/practica4/Images/GUI-Final.png?raw=true))
 
+# Práctica 6: Patrones de Diseño
+
+En esta práctica aplicamos diferentes patrones de diseño según nuestras necesidades: 
+
+## 1.Singleton
+
+El patrón de diseño Singleton se utiliza cuando se desea asegurar que una clase tenga una única instancia y proporciona un punto de acceso global a esa instancia.
+
+Con este patrón obtenemos control sobre la creación de instancias, ahorro de recursos, acceso global,control sobre la inicialización rápida o tardía; y nos facilita la gestión de los recursos compartidos. 
+
+![image](https://github.com/carloosmarin/isa2024-healthcalc/assets/160471914/7ab62b5b-fb42-4d50-8fa2-c0eaaf523ae1)
+
+## 2.Adapter
+
+El patrón Adapter se utiliza para permitir que dos interfaces incompatibles trabajen juntas. Sirve como un puente entre dos interfaces para que puedan colaborar sin necesidad de modificar su código fuente. 
+
+Adapta la interfaz de una clase a otra interfaz esperada por el cliente, facilitando la interoperabilidad entre componentes que de otra manera no podrían trabajar juntos directamente.
+
+![image](https://github.com/carloosmarin/isa2024-healthcalc/assets/160471914/7f00b0b4-65b3-425d-9da7-86e90da623f4)
+
+
+## 3.Proxy
+
+El patrón Proxy se utiliza para proporcionar un sustituto o representante de otro objeto para controlar el acceso a él. Sirve como una capa intermedia entre el cliente y el objeto real, permitiendo agregar funcionalidades adicionales como el control de acceso, la administración de recursos, la sincronización, la caché, entre otros.
+
+Actúa como un intermediario que controla el acceso al objeto real, proporcionando una capa de abstracción adicional y permitiendo agregar funcionalidades adicionales sin modificar el objeto real.
+
+![image](https://github.com/carloosmarin/isa2024-healthcalc/assets/160471914/83bacfb0-3cdf-4b4d-a3e8-ef55af5f7aef)
+
+
+## 4.Decorator
+
+El patrón Decorator se utiliza para añadir funcionalidades adicionales a un objeto de manera dinámica y flexible, sin modificar su estructura. Permite extender las capacidades de un objeto envolviéndolo en uno o más decoradores que proporcionan nuevas funcionalidades sin alterar la interfaz original del objeto.
+
+Permite agregar comportamientos adicionales a un objeto de forma transparente y flexible, promoviendo la reutilización y la extensibilidad del código.
+
+![image](https://github.com/carloosmarin/isa2024-healthcalc/assets/160471914/392cff37-fb08-49e6-b891-412c383df83f)
+
 
 
 
