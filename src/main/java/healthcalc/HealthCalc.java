@@ -1,4 +1,4 @@
-package healthcalc;
+package programa;
 
 /**
  * Calculator of some health parameters of persons.

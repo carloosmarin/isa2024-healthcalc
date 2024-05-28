@@ -19,16 +19,16 @@ public class HealthCalcImpl implements HealthCalc{
     public float idealWeight(int height, char gender) throws Exception {
 
         // 1. La altura debe ser positiva
-        // 2. El gÃ©nero debe estar dentro de los valores permitidos
-        // 3. La altura debe tener un lÃ­mite superior asociado al tipo de dato (int)
+        // 2. El género debe estar dentro de los valores permitidos
+        // 3. La altura debe tener un límite superior asociado al tipo de dato (int)
         if (height <= 0) {
-            throw new IllegalArgumentException("La altura debe ser un nÃºmero positivo.");
+            throw new IllegalArgumentException("La altura debe ser un número positivo.");
         }
         if (height >= Integer.MAX_VALUE) { 
             throw new IllegalArgumentException("La altura proporcionada es demasiado grande.");
         }
         if (Character.toLowerCase(gender) != 'm' && Character.toLowerCase(gender) != 'w') {
-            throw new IllegalArgumentException("El gÃ©nero debe ser 'm' (hombre) o 'w' (mujer).");
+            throw new IllegalArgumentException("El género debe ser 'm' (hombre) o 'w' (mujer).");
         }
         
         // Calculamos el peso ideal:
@@ -51,7 +51,7 @@ public class HealthCalcImpl implements HealthCalc{
         // 3. La altura debe ser mayor que cero
         // 4. La altura no debe causar un overflow del tipo de datos
         // . La edad debe ser mayor que cero
-        // . El gÃ©nero debe estar dentro de los valores establecidos
+        // . El género debe estar dentro de los valores establecidos
         if (weight <= 0) {
             throw new IllegalArgumentException("El peso debe ser un valor positivo.");
         }
@@ -74,7 +74,7 @@ public class HealthCalcImpl implements HealthCalc{
         }
 
         if (Character.toLowerCase(gender) != 'm' && Character.toLowerCase(gender) != 'w') {
-            throw new IllegalArgumentException("Debe elegir un gÃ©nero");
+            throw new IllegalArgumentException("Debe elegir un género");
         }
         
         // Calculate BMR using the specified formula
