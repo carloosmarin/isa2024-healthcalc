@@ -1,0 +1,39 @@
+
+
+1. 
+
+Bad Smell: Primitive Obsession
+
+Refactoring: Cambiar char por un value (Replace Value with Object)
+
+Tipo: Class Refactoring
+
+Descripción: En este refactoring, primero creamos el enum Gender, reemplazamos los "char" y los cambiamos por Gender, para así integrarlo en el resto del código.También cambiamos las partes del código donde se pide que se escriba como valor del char genero: "h" o "m"; por el valor Gender.MALE o Gender.FEMALE en función de lo que necesitemos.También eliminamos un trozo de código en el que se llama a una excepción si se introduce un valor distinto de "h" o "m" para el género, ya que ahora al ser un enum no habrá que introducir un carácter.
+
+Número de cambios: 32 líneas de código nuevas, contando los cambios en las líneas editadas, junto a la creación de la clase Gender.
+
+2.
+
+Bad Smell:Long list of parameters
+
+Refactoring:Cambiar los parámetros por un objeto
+
+Tipo: Class Refactoring
+
+Descripción: Hemos creado la interfaz Person, y la clase EspecPerson, que la implementa.En esta clase se crean objetos con los distintos argumentos dependiendo de la necesidad del método de la calculadora que usemos. Por lo tanto, sustituimos en cada vez que veamos alguno de los métodos todos los argumentos por una instancia de la clase EspecPerson que nos haga ahorrarnos los argumentos cada vez que llamemos a un método, así como la importación o la creación de objetos o parámetros en los métodos privados.
+
+Número de cambios: Una clase nueva, una interfaz nueva, y unas 70 líneas de código cambiadas o agregadas.
+
+3. 
+
+Bad Smell: Large Class
+
+Refactoring: Segregación de interfaz
+
+Tipo:Class Refactoring
+
+Descripción: Hemos creado las interfaces MetabollicMetrics y CardiovascularMetrics, y con ello cambiado cada referencia a los métodos de cálculo del BMR o del IW; ya que con estas interfaces obtenemos un resultado de tipo double a diferencia del tipo float que teníamos anteriormente.
+
+Número de cambios: 2 interfaces creadas, y los cambios de float a double en la clase HealthCalcImpl.
+
+
